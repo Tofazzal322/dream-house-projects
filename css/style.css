@@ -188,6 +188,11 @@ body{
     margin-bottom: 10px;
 }
 
+.plan{
+    color: rgb(228, 72, 21);
+    font-size: 18px;
+}
+
 
 .player-details{
     font-size: 14px;
