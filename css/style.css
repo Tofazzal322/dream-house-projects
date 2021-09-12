@@ -16,6 +16,7 @@ body{
   width: 100%;
   background-color: #555;
   overflow: auto;
+  padding: 10px;
   
 }
 
@@ -55,10 +56,12 @@ body{
 /* -------------top banner styles start ---------- */
 
 .top-banner{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    width: 80%;
+    justify-items: center; */
+    /* padding-top: 50px; */
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(https://img.freepik.com/free-vector/construction-skyline-construction-web-site-head-new-city-exterior_88272-1080.jpg?size=626&ext=jpg);
     
 }
 
@@ -69,65 +72,99 @@ body{
 }
 
 .banner{
+    /* margin-top: 10px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    width: auto;
+    height: 100%;
+    /* padding: 15px; */
+    /* align-items: center ; */
+     justify-content: center; 
+    justify-items: center; 
     
     
 }
 
 
 .banner-title{
-    color: rgb(44, 148, 209);
-    font-size: 3em;
+    margin-top: 30px;
+    color: rgb(39, 39, 38);
+    font-size: 2em;
     font-weight: 900;
     line-height: 70px;  
-    width: 500px;
+    /* width: 500px; */
     
 }
 .welcome{
-    color: #f8b702;
+    color: #313131;
+    font-size: 30px;
+    background-color: rgb(255, 217, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
 .details-info{
-    color: rgb(10, 6, 245);
+    color: rgb(29, 29, 32);
     font-size: 17px;
     font-weight: bold;
+    
+}
+
+.paragraph2{
+    color: rgb(255, 217, 0);
+    /* font-size: 60px; */
+    background-color: rgba(58, 61, 61, 0.644);
+    width: 100%;
+    line-height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    /* justify-items: center; */
+    align-items: center;
+    /* text-align: center; */
 }
 
 
 .btn{
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
     background-color: red;
-    border-radius: 10px;
-    
+    /* border-radius: 10px;
+     */
     
 }
 
 
 .btn a{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-decoration: none;
     color: seashell;
-    font-weight: 600;
-    font-size: 18px;
+    /* font-weight: 600; */
+    /* font-size: 18px; */
 
 }
 
 
 .banner img{
-    width: 85%;
+    width: 100%;
     height: 80%;
+    border-radius: 5px;
+    margin-top: 30px;
    
 }
 
 .partner{
     text-align: center;
-    font-size: 30px;
-    color: rgb(224, 248, 2);
-    border: 1px solid red;
-    background-color: rgb(17, 120, 218);
+    font-size: 40px;
+    color: rgb(255, 176, 6);
+    font-weight: 700;
+    /* border: 1px solid red; */
+    /* background-color: rgb(17, 120, 218); */
+    margin-top: 50px;
+    padding: 10px;
+    /* width: 50%; */
+    /* border-radius: 100px; */
+    /* margin-left: 25%; */
     /* width: 75%; */
     /* padding-left: 12%; */
     /* align-items: center; */
@@ -140,14 +177,15 @@ body{
 
 
 /* ---------------all player sectiion styles start ---------------*/
-.container{
+/* .container{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    width: auto;
     
 
     
-}
+} */
 
 
 .all-player{
@@ -155,7 +193,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;  
     justify-items: center;
-    width: 80%;
+    width: 100%;
+    
 
     
     
@@ -168,24 +207,29 @@ body{
 .player{
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 25px;
     margin-top: 20px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);    
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);  
+    border-radius: 5px;  
 }
 
 
 .player-img{
-    width: 100%;
+    /* width: 100%; */
+    width: 350px;
     border-radius: 5px;
+    height: 400px;
+    justify-items: center;
 }
 
 
 .player-name{
     width: 300px;
     font-size: 22px;
-    color: rgb(250, 163, 2);
+    color: rgb(251, 172, 0);
     margin-top: 15px;
     margin-bottom: 10px;
+    font-weight:500;
 }
 
 .plan{
@@ -198,34 +242,50 @@ body{
     font-size: 14px;
     opacity: 80%;
     margin-top: -5px;
+    /* text-decoration: underline; */
 } 
+
+.deposit{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 /* ---------------all player sectiion styles end ---------------*/
 
 /* ///////////////////////////////////////////////// */
 
 /* ----------Highlight styles start ------------*/
 
-.all-highlights{
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+/* .all-highlights{ */
+    /* margin-top: 100px; */
+    /* display: flex; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* width: 90%; */
+    /* height: auto; */
+    /* width: auto; */
+    /* justify-items: center; */
+    
 
-}
+/* } */
 
 
 .highlights{
+    margin-top: 100px;
+    margin-right: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    width: 80%;
+    width:auto;
+  justify-content: center;
+    /* align-items: center; */
+    
 
 }
 
-.highlight-text{
+/* .highlight-text{
     width: 100%;
 
-}
+} */
 
 .highlight-titlle{
     font-size: 2em;
@@ -240,11 +300,15 @@ body{
 
 .match-image{
     width: 100%;
+    height: auto;
+    justify-content: center;
+    
 }
 
 .match-image img{
     margin-top: 5px;
     width: 100%;
+    /* height: 100; */
     border-radius: 10px;
 
 } 
@@ -264,6 +328,7 @@ body{
 footer{
     display: flex;
     flex-direction: column;
+    width: auto;
     align-items: center;
     margin-top: 100px;
     background-color: #ffffff;
@@ -278,6 +343,7 @@ footer{
 
 .logo-image{
     width: 350px;
+    /* width: 100%; */
 }
 
 .all-icon{
